@@ -25,8 +25,9 @@ function calcularIMC() {
 
   resultadoElement.textContent = `Seu IMC é ${imc.toFixed(
     2
-  )} (${classificacao})`;
+  )} . Você está com ${classificacao}.`;
 }
+
 document.getElementById("limpar").addEventListener("click", function () {
   document.getElementById("altura").value = "";
   document.getElementById("peso").value = "";
