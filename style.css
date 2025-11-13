@@ -41,7 +41,7 @@ body calculadora {
 }
 
 header {
-  background-color: palevioletred;
+  background-color: rgb(250, 43, 112);
   box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
   color: #fff;
   padding: 1em;
@@ -50,22 +50,6 @@ header {
   justify-content: center;
 }
 
-header nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-header nav ul li {
-  margin-right: 20px;
-}
-
-header nav a {
-  color: #fff;
-  text-decoration: none;
-}
 section h1 {
   text-align: center;
 }
@@ -80,7 +64,7 @@ section h1 {
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.25);
-  margin-top: 150px;
+  margin-top: 110px;
   height: 300px;
   border: solid 1px rgb(184, 184, 184);
 }
@@ -121,36 +105,36 @@ label {
 }
 #altura {
   height: 6px;
-  width: 150px;
+  width: 120px;
   border-radius: 10px;
-  border: solid 1px rgb(184, 184, 184);
+  border: solid 1px rgb(250, 114, 193);
   margin: 0;
-  background-color: salmon;
+  background-color: rgb(245, 221, 219);
 }
 
 #peso {
   height: 6px;
-  width: 150px;
-  border: solid 1px rgb(184, 184, 184);
+  width: 120px;
+  border: solid 1px rgb(250, 114, 193);
   margin: 2px;
   margin-bottom: 15px;
   border-radius: 10px;
-  background-color: salmon;
+  background-color: rgb(245, 221, 219);
 }
 
 #calcular {
   background-color: green;
   border: solid 1px rgb(184, 184, 184);
-  width: 70px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
 #limpar {
   background-color: red;
   border: solid 1px rgb(184, 184, 184);
-  width: 70px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
@@ -175,7 +159,7 @@ button[type="button"] {
   cursor: pointer;
 }
 button[type="button"] {
-  font-size: 12px; /* ajuste o tamanho do texto */
+  font-size: 9px; /* ajuste o tamanho do texto */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,10 +170,10 @@ button[type="button"]:hover {
 }
 
 .about {
-  max-width: 450px;
+  width: 300px;
   margin: 40px auto;
   padding-bottom: 20px;
-  background-color: salmon;
+  background-color: rgb(243, 100, 248);
   box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.25);
   border: solid 1px rgb(184, 184, 184);
   border-radius: 10px;
